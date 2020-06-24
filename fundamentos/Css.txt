@@ -1,0 +1,40 @@
+Sitaxe
+
+seletor { propriedade: valor; }
+
+Ex:
+
+h1 { 
+    color: red; 
+    font-size: 10px;
+}
+
+Podemos incluir o arquivo css basicamente de 3 formas
+
+1 - Inline -> como atributo no html style="..." - não é bom
+2 - interno -> colocar entre <style>...</style> essa tag esta dentro do head - não é recomendado
+3 - Externo -> <link ...> carregar um arquivo externo
+
+Seletores de elemento usa a tag
+podemos usar class ex: .nome-classe {...}
+usado id ex: #meu_id {...} - unico por pagina o id
+
+propriedades 
+    font-family - familia
+    font-size - tamanho
+    font-style - estilo
+    font-variant - variação
+
+    text-align - direito ou esquerdo
+    
+pseudo-classes
+
+ex:
+
+a:link{...}
+a:visited{...}
+a:hover{...}
+a:active{...}
+
+para trabalhar com lista
+list-style

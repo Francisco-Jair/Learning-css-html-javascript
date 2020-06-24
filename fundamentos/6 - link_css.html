@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Pagina de exemplo estrutura basica</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        /*Herança vale aqui tb, posso colcoar o body e passar*/
+
+        body {
+            font-family: sans-serif;
+            color: red;
+        }
+
+        a,
+        p {
+            color: brown;
+        }
+
+        a:hover {
+            color: rgb(34, 29, 29);
+            background-color: coral;
+        }
+
+        a:visited {
+            color: chartreuse;
+        }
+
+        a:active {
+            color: orange;
+        }
+
+        ul li {
+            /*Formata todos os li que estão dentro de ul*/
+            list-style-type: decimal-leading-zero;
+        }
+
+        ol li {
+            list-style-type: lower-alpha;
+            list-style-position: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="1 - aula01.html">Vejo o link</a>
+    <a href="#">Vejo o arquivo</a>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ol>
+
+    <p>Valor do meu paragrafo</p>
+</body>
+
+</html>

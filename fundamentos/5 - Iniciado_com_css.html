@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Iniciado com css</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <!--Interno-->
+    <style>
+        body {
+            background-color: darkblue;
+        }
+
+        /*Box model*/
+        /*
+        padding, margin
+        
+         top, right, bottom, left
+        
+        se não colocar um desses valores ele duplica o seu oposto
+        tirando a exeção de colocar só um valor ai ele aplica aquele
+        valor para todos*/
+
+        /*border
+            style
+            width
+            color
+
+        */
+        /*
+        border-top-style*/
+        h1 {
+            font-family: Arial, fantasy;
+            font-size: 49px;
+            font-style: normal;
+            font-variant: small-caps;
+            color: blueviolet;
+            background-color: black;
+            margin-left: 0px;
+            /*margem da esquerda*/
+            margin-top: 50px;
+            /*Margem superior*/
+            padding-left: 50px;
+            /*Padding interno ao elemento e margem externo ao elememto*/
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 500px;
+            height: 500px;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: brown;
+            background-color: #f85548;
+            border-color: red;
+            border-style: solid;
+            border-width: 10px;
+            padding: 25px;
+        }
+
+        p {
+            font-variant: normal;
+            text-align: left;
+            text-decoration: underline;
+            text-indent: 20px;
+            text-transform: capitalize;
+            color: red;
+            margin-bottom: 30px;
+        }
+
+        #destaque {
+            color: rgb(240, 240, 11);
+        }
+
+        .mudar {
+            color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Primeiro arquivo CSS</h1>
+
+    <h2>Vamos começar a mexer no css</h2>
+
+    <p>o Css é usado para estilizar</p>
+    <p id="destaque">Html e uma linguagem de marcação</p>
+    <p>o Javascript e usado para muita coisa</p>
+    <p class="mudar">Programa é o futuro da nação</p>
+    <p class="mudar">Programa é o futuro da nação Programa é o futuro da nação</p>
+</body>
+
+</html>
