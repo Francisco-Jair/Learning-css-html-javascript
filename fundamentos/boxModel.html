@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Pagina de exemplo estrutura basica</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        /*
+        As dimensões finais do box (largura x altura) são o resultado da soma dos valores das propriedades width, padding, border.
+        Esse é o comportamento padrão do Box Model CSS, ou seja, as três propriedades se somam para determinar o tamanho final do elemento.
+        */
+
+        /*
+        content-box
+        Essa é o estilo padrão, conforme especificado pela norma CSS. As propriedades width (largura) e height (altura) são medidas incluindo só o conteúdo, mas não o padding, border ou margin. Nota: Padding, border e margin serão fora da box. Exemplo.: Se .box {width: 350px} então se você aplicar uma propriedade {border: 10px solid black;} o resultado renderizado no navegador (browser) será .box {width: 370px;}*/
+        .block {
+            /*Essas duas propriedades definem o tamanho da area de conteudo*/
+            /* width: 300px;*/
+            /*Largura*/
+            height: 300px;
+            /*Altura*/
+        }
+
+        .box {
+            box-sizing: border-box;
+            background-color: red;
+            width: 50%;
+            float: left;
+            padding: 6%;
+            /*50% + 2x5% está somando*/
+            border: 10px dotted black;
+            margin: 10px;
+        }
+
+        .box:last-child {
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block">
+        <div class="box">BOX 1</div>
+        <div class="box">BOX 2</div>
+    </div>
+</body>
+
+</html>
