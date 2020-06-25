@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Pagina de exemplo estrutura basica</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+    <!--
+    imagem informativa seria uma boa colocar ela no html
+    <img src="path" alt="..." >
+
+    se a imagem for mais decorativa coloca no css
+    background-image: url(path);
+
+    -> se a imagem for jpg/jpeg deve ser carregado no html
+    
+-->
+    <style>
+        body {
+            font-size: 22px;
+            font-family: sans-serif;
+            width: 700px;
+            margin: auto;
+            background-image: url(img/bg.jpg);
+            background-repeat: repeat;
+            background-attachment: fixed;
+            /*background-size: 300px 500px;*/
+            /*background-size: 100% 100%;*/
+            /*background-size: contain;*/
+            background-size: cover;
+            background-position: right bottom;/*horizontal x vertical e pode usar numeros*/
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .img-html {
+            float: left;
+        }
+
+        .img-css {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Incluir Imagens</h1>
+
+    <p><a href="https://br.lipsum.com/">Gerador de Lorem Ipsum</a></p>
+
+    <img src="img/html5.png" class="img-html" alt="Logotipo HTML 5">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quia, quas iusto non asperiores repellendus
+        voluptate laborum tenetur, cupiditate qui autem eius perspiciatis? Dignissimos minus dolores sunt nam repellat?
+        Sint.</p>
+
+    <img src="img/css3.png" class="img-css" alt="Logo tipo css">
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quia, quas iusto non asperiores repellendus
+        voluptate laborum tenetur, cupiditate qui autem eius perspiciatis? Dignissimos minus dolores sunt nam repellat?
+        Sint.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quia, quas iusto non asperiores repellendus
+        voluptate laborum tenetur, cupiditate qui autem eius perspiciatis? Dignissimos minus dolores sunt nam repellat?
+        Sint.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quia, quas iusto non asperiores repellendus
+        voluptate laborum tenetur, cupiditate qui autem eius perspiciatis? Dignissimos minus dolores sunt nam repellat?
+        Sint.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quia, quas iusto non asperiores repellendus
+        voluptate laborum tenetur, cupiditate qui autem eius perspiciatis? Dignissimos minus dolores sunt nam repellat?
+        Sint.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quia, quas iusto non asperiores repellendus
+        voluptate laborum tenetur, cupiditate qui autem eius perspiciatis? Dignissimos minus dolores sunt nam repellat?
+        Sint.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quia, quas iusto non asperiores repellendus
+        voluptate laborum tenetur, cupiditate qui autem eius perspiciatis? Dignissimos minus dolores sunt nam repellat?
+        Sint.</p>
+</body>
+
+</html>
