@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Box Model </title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        /*
+        body {
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+            align-items: center;
+
+            height: 100hv;
+
+            margin: 0;
+        }
+        */
+        div {
+            background-color: red;
+            font-size: 28px;
+            color: white;
+            text-align: center;
+
+            /*content: Largura(Width) e Altura (height)*/
+            width: 500px;
+            height: 500px;
+
+            /*Coloca como limite de tamanho da caixa os daqui largura X altura*/
+            overflow: hidden;
+
+            padding: 100px 100px 100px 100px;
+
+            /*Border (Borda)
+            
+            aqui serve para todos mas o escolhido que no caso
+            foi o top vai ser mais destacado
+            caso queira somente em um lugar usa-se
+            border-local-propriedade
+
+            border: pixel tipo cor;
+            border-local: px tipo cor;
+            */
+            border-top: 10px;
+            border-style: dotted;
+            border-color: rgba(0, 0, 0, 0.8);
+
+            /*Margin
+            
+            margin-top: 200px;*/
+            margin: 20% auto;
+
+            /*Mudar limites da caixa*/
+            box-sizing: border-box;
+            /*Tamanho da caixa vai ate os limites da borda antes ia até o conteudo*/
+
+
+        }
+
+        .content {
+            background-color: red;
+            font-size: 28px;
+            color: white;
+            text-align: center;
+
+            /*Prenchimento (Padding)
+            
+            padding: top right bottom left;
+             */
+
+            padding: 100px 100px 100px 100px;
+
+
+            /*
+            padding-top: 100px;
+            padding-right: 200px;
+            padding-bottom: 700px;
+            padding-left: 500px;
+            */
+        }
+
+        section {
+            background-color: teal;
+
+            width: 500px;
+            height: 200px;
+
+            margin: 0 auto;
+        }
+
+        span {
+            display: inline-block;
+            background-color: red;
+            color: white;
+
+            width: 500px;
+            height: 500px;
+        }
+        a{
+            background-color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Box model funciona assim
+        
+    Margin(border(padding(content()))) -> O conteudo vai realmente só no content
+    
+    Os elementos HTML ver os elementos como caixas retangulares(Conteiner)
+    
+    1. Margin top, right, bottom, left
+    2. Border acima, style, width, color
+    3. Padding prenchimento
+    4. Content (Text, image, video)
+-->
+
+    <span>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente suscipit perspiciatis libero iure
+        possimus aperiam, officia saepe qui asperiores est modi hic nisi fugiat. Rerum dolore dicta possimus? Nulla,
+        explicabo.
+    </span>
+    <a> JAIRR</a>
+    <div>
+        
+    </div>
+</body>
+
+</html>
