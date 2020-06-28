@@ -22,55 +22,30 @@
 
             */
 
-        .class1 {
-            display: block;
-            width: 560px;
-            /*Largura maxima e quebra a linha*/
+        div {
+            background-color: orange;
+            width: 150px;
+            height: 100px;
+            margin: 10px;
+            /*display: inline-block;/*Usa de lado a lado com as larguras normais*/
+            /*display: inline;/*Usa o minimo de largura e na mesma linha*/
+            /*display: block;/*Padrão usa o maximo de largura com quebra de linha*/
         }
 
-        .class2 {
-            background-color: red;
+        #div1 {
+            padding: 25px;
         }
 
-        .class3 {
-            background-color: sandybrown;
-        }
-
-        .class4 {
-            width: 560px;
-            display: inline;
-            /*Largura minima*/
-        }
-
-        .class5 {
-            background-color: red;
-        }
-
-        .class6 {
-            background-color: sandybrown;
+        #div2 {
+            padding: 25px;
         }
     </style>
 </head>
 
 <body>
-    <div class="class1">
-        <div class="class2">
-            <p>Vaidsa fnmsabdnfsdnbfjsdjkfbdshbfdsfhsdfbdjksbfjkdsjk</p>
-        </div>
-        <div class="class3">
-            <p>dsfjahsjfhdsjfhjkshfjsdajkhfjsdhfjsdhjfhdsjfhjdsfjs</p>
-        </div>
-    </div>
-
-    <div class="class4">
-        <div class="class5">
-            <p>Vaidsa fnmsabdnfsdnbfjsdjkfbdshbfdsfhsdfbdjksbfjkdsjk</p>
-        </div>
-        <div class="class6">
-            <p>dsfjahsjfhdsjfhjkshfjsdajkhfjsdhfjsdhjfhdsjfhjdsfjs</p>
-            <p>dsfjahsjfhdsjfhjkshfjsdajkhfjsdhfjsdhjfhdsjfhjdsfjs</p>
-        </div>
-    </div>
+    <h1>Estrutura Basica</h1>
+    <div id="div1">teste</div>
+    <div id="div2">teste</div>
 </body>
 
 </html>
