@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Pagina de exemplo estrutura basica</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        /*O boxmodel funciona melhor com as tags de block
+            
+            A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado,
+            exceto quando tiver sido declarado ao contrário (por exemplo, declarar a propriedade float para o elemento próximo ao bloco).
+            
+
+            A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. Quando o elemento encontra-se entre dois blocos ele forma o chamado 'bloco anônimo'
+            e é renderizado com a menor largura possível.
+            
+
+
+            */
+
+        .class1 {
+            display: block;
+            width: 560px;
+            /*Largura maxima e quebra a linha*/
+        }
+
+        .class2 {
+            background-color: red;
+        }
+
+        .class3 {
+            background-color: sandybrown;
+        }
+
+        .class4 {
+            width: 560px;
+            display: inline;
+            /*Largura minima*/
+        }
+
+        .class5 {
+            background-color: red;
+        }
+
+        .class6 {
+            background-color: sandybrown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="class1">
+        <div class="class2">
+            <p>Vaidsa fnmsabdnfsdnbfjsdjkfbdshbfdsfhsdfbdjksbfjkdsjk</p>
+        </div>
+        <div class="class3">
+            <p>dsfjahsjfhdsjfhjkshfjsdajkhfjsdhfjsdhjfhdsjfhjdsfjs</p>
+        </div>
+    </div>
+
+    <div class="class4">
+        <div class="class5">
+            <p>Vaidsa fnmsabdnfsdnbfjsdjkfbdshbfdsfhsdfbdjksbfjkdsjk</p>
+        </div>
+        <div class="class6">
+            <p>dsfjahsjfhdsjfhjkshfjsdajkhfjsdhfjsdhjfhdsjfhjdsfjs</p>
+            <p>dsfjahsjfhdsjfhjkshfjsdajkhfjsdhfjsdhjfhdsjfhjdsfjs</p>
+        </div>
+    </div>
+</body>
+
+</html>
