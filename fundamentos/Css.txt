@@ -38,3 +38,13 @@ a:active{...}
 
 para trabalhar com lista
 list-style
+
+
+
+nivel de block
+Vai ocupar toda a largura disponivel do conteiner e gerar
+uma quebra de linha
+
+nivel de linha(inline)
+ficar na mesma linha, vão ocupar somente a area necesaria para
+seu conteudo
