@@ -100,6 +100,18 @@ main {
     margin-right: 2%;
 }
 
+.content-section h2 {
+    background-color: #dad0d0;
+    line-height: 80px;
+    border-bottom: 2px solid #8a8888;
+    margin-top: 1px;
+    text-indent: 10px;
+}
+
+.paragrafo {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
 
 footer {
     background-color: #6b6c68;
