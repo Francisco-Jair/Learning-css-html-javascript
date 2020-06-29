@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Pagina de exemplo estrutura basica</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        /*float e clear*/
+        #container {
+            width: 80%;
+            padding: 15px;
+            background-color: #ccc;
+            overflow: auto;
+            /*Gabiarra o certo e usar outra tecnica*/
+        }
+
+        #container div {
+            width: 70px;
+            height: 50px;
+            border: 2px solid red;
+            margin: 5px;
+        }
+
+        #div1 {
+            float: left;
+            /*float do mesmo tipo se entende*/
+        }
+
+        #div2 {
+            /*float: left;*/
+            float: left;
+        }
+
+        #div3 {
+            background-color: yellow;
+            /*clear: left;*/
+            /*clear: right;*/
+            /*clear: both;*/
+            float: left;
+        }
+
+        header {
+            background-color: #ccc;
+            height: 50px;
+        }
+
+        nav {
+            width: 25%;
+            height: 50px;
+            background-color: orange;
+            float: left;
+            /*entrou no espaço da main */
+        }
+
+        main {
+            width: 70%;
+            height: 100px;
+            background-color: yellow;
+            float: right;
+        }
+
+        footer {
+            height: 50px;
+            background-color: blue;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="div1">div1</div>
+        <div id="div2">div2</div>
+        <div id="div3">div3</div>
+    </div>
+    <hr>
+
+    <header>Header</header>
+    <nav>nav</nav>
+    <main>main</main>
+    <footer>footer</footer>
+</body>
+
+</html>
