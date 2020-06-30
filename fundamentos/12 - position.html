@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Pagina de exemplo estrutura basica</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        #um {
+            background-color: red;
+            padding: 10px;
+            width: 100%;
+            height: 80px;
+            position: relative;
+        }
+
+        #dois {
+            background-color: orange;
+            padding: 10px;
+            width: 80%;
+            height: 50px;
+            position: relative;
+            top: 20px
+        }
+
+        #tres {
+            background-color: yellow;
+            width: 25px;
+            height: 25px;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="um">1
+            <div id="dois">2
+                <div id="tres">3</div>
+            </div>
+        </div>
+
+
+        <p>Um elemento posicionado é um elemento cujo valor de sua posição pode ser computado (calculado) como relative,
+            absolute, fixed, or sticky. ( Em outras palavras, são todos esses, com excessão do static, sento estático o
+            valor como padrão do elemento.)</p>
+        <p>Um elemento denominado com posicionamento relativo, Com isso, a propriedade top e bottom determinam o
+            deslocamento ou projeção vertical a posição padrão do elemento que estava definida por static; Não sendo
+            outro, o left e o right, por sua vez, determinam o deslocamento horizontal</p>
+        <p>Um elemento denominado com posicionamento absoluto </p>
+        <p>Um elemento denomicado com posicionamento adesivo ( ! ), ou stickily positioned element, é um elemento
+            determinado e calculado ao atribuir ao position como valor sticky. Sendo tratado como um posicionamento
+            relativo até que ultrapasse (atinja) os limites do bloco no qual está contido. </p>
+        <p>O fixed deixa o objeto fixo onde as propriedades de deslocamento pode ser usadas para movelo</p>
+        <p>static
+            O elemento é posicionado de acordo com o fluxo normal do documento. A top, right, bottom, left, e
+            z-indexpropriedades têm nenhum efeito . Este é o valor padrão.
+            relative
+            O elemento é posicionado de acordo com o fluxo normal do documento, e, em seguida, deslocado em relação à
+            própria base nos valores de top, right, bottom, e left. O deslocamento não afeta a posição de outros
+            elementos; portanto, o espaço fornecido para o elemento no layout da página é o mesmo que se a posição fosse
+            static.
+            Este valor cria um novo contexto de empilhamento quando o valor de z-indexnão é auto. Seu efeito sobre
+            table-*-group, table-row, table-column, table-cell, e table-captionelementos é indefinido.
+            absolute
+            O elemento é removido do fluxo normal de documentos e nenhum espaço é criado para o elemento no layout da
+            página. É posicionado em relação ao seu ancestral posicionado mais próximo, se houver; caso contrário, é
+            colocado em relação ao bloco inicial . A sua posição final é determinada pelos valores de top, right,
+            bottom, e left.
+            Este valor cria um novo contexto de empilhamento quando o valor de z-indexnão é auto. As margens das caixas
+            absolutamente posicionadas não diminuem com outras margens.
+            fixed
+            O elemento é removido do fluxo normal de documentos e nenhum espaço é criado para o elemento no layout da
+            página. Ele está posicionado em relação ao primeiro bloco contendo estabelecido pelo visor , excepto quando
+            um dos seus antepassados tem um transform, perspectiveou filterconjunto de propriedades a algo diferente
+            none(ver o CSS Transforma Spec ), caso em que que antepassado comporta-se como o bloco que contém. (Note-se
+            que há inconsistências do navegador com perspectivee filtercontribuindo para a formação de blocos contendo.)
+            A sua posição final é determinada pelos valores de top, right, bottom, e left.
+            Esse valor sempre cria um novo contexto de empilhamento . Nos documentos impressos, o elemento é colocado na
+            mesma posição em todas as páginas .
+            sticky
+            O elemento é posicionado de acordo com o fluxo normal do documento, e, em seguida, deslocada em relação ao
+            seu antepassado rolagem mais próxima e contendo bloco (antepassado de nível de bloqueio mais próxima),
+            incluindo elementos relacionados com a tabela, com base nos valores de top, right, bottom, e left. O
+            deslocamento não afeta a posição de outros elementos.
+            Esse valor sempre cria um novo contexto de empilhamento . Note-se que um elemento pegajosas "paus" ao seu
+            predecessor mais próximo que tem um "mecanismo de rolagem" (criado quando overflowé hidden, scroll, auto, ou
+            overlay), mesmo que esse ancestral não é o mais próximo ancestral realmente rolagem. Isso inibe efetivamente
+            qualquer comportamento " persistente " (consulte o problema do Github no W3C CSSWG ).</p>
+    </div>
+</body>
+
+</html>
