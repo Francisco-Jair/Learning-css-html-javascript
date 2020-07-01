@@ -1,0 +1,12 @@
+/* create by : Francisco Jair */
+
+body {
+
+
+    background-image: url(../img/fundo5.jpg);
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
