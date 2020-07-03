@@ -1,5 +1,20 @@
 /*Create by F.Jair*/
 
-.body {
+body {
     margin: 0;
+    background-color: #8f8d8d;
+}
+
+.hearder-content {
+    background-color: #3d3d3d;
+    height: 100px;
+}
+
+.img-nav {
+    height: 100%;
+    margin-left: 150px;
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
 }
