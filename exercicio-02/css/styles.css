@@ -3,6 +3,7 @@
 body {
     margin: 0;
     background-color: #8f8d8d;
+    font-family: sans-serif;
 }
 
 .hearder-content {
@@ -52,7 +53,50 @@ body {
     text-transform: uppercase;
 }
 
-.content
-{
-    
+.content {
+    text-align: center;
+    padding: 0 300px 0 300px;
+    margin-top: 200px;
+}
+
+.content-titulo {
+    font-size: 50px;
+}
+
+.content h3 {
+    text-decoration: underline;
+}
+
+.paragrafo {
+    text-align: justify;
+    font-size: 20px;
+    /* word-spacing: 1px; */
+    /*Espaço entre as palavras*/
+    letter-spacing: 1px;
+    /*Espaço entre as letras*/
+    /* white-space: normal; */
+    /*Espaço em branco*/
+    line-height: 1.6;
+    /*Espaço entre linha
+    se colocar o "px" ele vai contar 
+    se não colocar e como se ele so somase*/
+
+}
+
+.rodape {
+    background-color: #ebe9e9;
+    height: 30px;
+    text-align: center;
+}
+
+.rodape p {
+    color: lightgray;
+}
+
+.rodape p:hover {
+    color: red;
+}
+
+.rodape p span {
+    text-decoration: underline;
 }
