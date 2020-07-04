@@ -50,3 +50,17 @@ ficar na mesma linha, vão ocupar somente a area necesaria para
 seu conteudo
 
 Estrutura layouts com semantica
+
+Antes usava div para tudo com o html5 teve umas tags novas
+
+header -> Cabeçalho
+nav -> Navegação principal
+main -> conteudo principal
+footer -> Rodape 
+
+section -> senção da pagina, dividir conteudo relevate
+article -> conteudo principal
+aside -> a parte do conteudo principal(EX: propaganda)
+
+span -> para demarcar texto
+div -> componente generico
