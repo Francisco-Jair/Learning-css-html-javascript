@@ -64,3 +64,17 @@ aside -> a parte do conteudo principal(EX: propaganda)
 
 span -> para demarcar texto
 div -> componente generico
+
+
+
+Padding:
+As propriedades de preenchimento CSS são usadas para gerar espaço em torno do conteúdo. 
+O preenchimento limpa uma área ao redor do conteúdo (dentro da borda) de um elemento.
+
+Margin:
+As propriedades de margem CSS são usadas para gerar espaço em torno de elementos. 
+As propriedades de margem definem o tamanho do espaço em branco fora da borda.
+
+
+Margin / Margem - Espaçamento fora do conteúdo.
+Padding / Preenchimento - Espaçamento dentro dos limites do conteúdo.

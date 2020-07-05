@@ -1,5 +1,61 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 /* .container {} */
+
+.cabecalho {
+    background-color: #bebaba;
+    height: 100px;
+}
+
+.image-logo {
+    height: 109px;
+    margin-left: 95px;
+}
+
+.menu {
+    list-style-type: none;
+    float: right;
+}
+
+.opcoe {
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 10px;
+    padding: 5px;
+    border-width: 3px;
+    border-color: #3f3a3a;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.opcoe:hover {
+    background-color: #919191;
+}
+
+.opcoe a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0a0a0a;
+}
+
+
+.principal {
+    margin: 0 300px;
+    text-align: justify;
+}
+
+.artigo h1 {
+    font-size: 46px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.img-texto {
+    width: 900px;
+    height: 400px;
+}
