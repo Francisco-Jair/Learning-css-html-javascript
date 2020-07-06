@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Listas</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        li ul {
+            /*Ocultado a ul que está dentro da li*/
+            /* display: none; */
+            height: 0;
+            overflow: hidden;
+            /*Esconde o conteudo que ecende o tamano definido*/
+            transition: height .5s;/*Qual a propriendade e o tempo*/
+        }
+
+        li:hover {
+            background-color: red;
+        }
+
+        li:hover ul {
+            /* display: block; */
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Listas ordenadas -->
+    <ul>
+        <li>Intem 1</li>
+        <li>Intem 2
+            <ol>
+                <li>intem 2.1</li>
+            </ol>
+        </li>
+        <li>Intem 3
+            <ul>
+                <li>intem 3.1</li>
+            </ul>
+        </li>
+        <li>Intem 4</li>
+    </ul>
+
+    <!-- Lista de definição -->
+    <hr>
+
+    <dl>
+        <dt>Termo</dt>
+        <dd>definição</dd>
+        <dt>CSS</dt>
+        <dd>Criaçao de folhas de estilo</dd>
+    </dl>
+
+    <hr>
+
+    <dl>
+        <dt>www</dt>
+        <dd>Internet</dd>
+        <dd>Rede mundial de computadores</dd>
+    </dl>
+</body>
+
+</html>
