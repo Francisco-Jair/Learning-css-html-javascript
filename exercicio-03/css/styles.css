@@ -91,3 +91,14 @@ body {
 .card p:hover {
     color: rgb(10, 9, 9);
 }
+
+.rodape {
+    background-color: #727171;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.rodape p {
+    padding-top: 40px;
+    padding-left: 48%;
+}
