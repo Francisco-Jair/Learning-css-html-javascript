@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Tabela</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+        }
+
+        th {
+            background-color: rgb(252, 225, 225);
+            border: 2px solid chocolate;
+            padding: 15px;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Tabela de preço de cursos</caption>
+        <!--Acessibilidade e tb titulo da tabela-->
+
+        <thead>
+            <tr>
+                <th>Area</th>
+                <th>Curso</th>
+                <th>Investimento</th>
+            </tr>
+        </thead>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Valores sujeito a alteração sem aviso previo</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td rowspan="3">Design</td>
+                <td>InDesing</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <!-- <td>Design</td> -->
+                <td>Photoshop</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <!-- <td>Design</td> -->
+                <td>Inlustranto</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">Desenvolvimento</td>
+                <td>C</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <!-- <td>Desenvolvimento</td> -->
+                <td>Java</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+            <tr>
+                <!-- <td>Desenvolvimento</td> -->
+                <td>Python</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+
+            <tr>
+                <!-- <td>Desenvolvimento</td> -->
+                <td>JavaScript</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
