@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        .form-login {
+            width: 250px;
+            margin: 50px auto 0;
+            font-family: sans-serif;
+        }
+
+        .form-login fieldset {
+            background-color: gray;
+        }
+
+        .form-login legend {
+            background-color: rgb(255, 255, 255);
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .form-login label {
+            margin-top: 25px;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #user,
+        #pass,
+        .btn {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+        }
+
+        #user:focus,
+        #pass:focus {
+            background-color: #dddddd;
+        }
+
+        .btn {
+            margin-top: 15px;
+        }
+
+        #user {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de formulario</h1>
+
+    <form action="#" method="POST" class="form-login">
+        <fieldset>
+            <legend>Login</legend>
+
+            <label for="user">Digite o seu usuario</label>
+            <input type="text" id="user" name="#FeitonoBakc" autofocus>
+
+            <label for="pass">Digite a sua senha</label>
+            <input type="password" id="pass" name="#FeitonoBakc">
+
+            <input type="submit" value="Logar" class="btn">
+        </fieldset>
+    </form>
+</body>
+
+</html>
