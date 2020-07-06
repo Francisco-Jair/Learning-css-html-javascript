@@ -67,7 +67,7 @@ body {
 }
 
 .card {
-    width: 31%;
+    width: 32.8%;
     float: left;
     box-sizing: border-box;
     padding: 0px 14px 0 20px;
@@ -84,6 +84,7 @@ body {
 
 .card p {
     text-align: justify;
+    word-spacing: -0.49px;
     color: rgb(53, 52, 52);
 }
 
