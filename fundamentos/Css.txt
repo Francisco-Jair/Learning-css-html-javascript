@@ -78,3 +78,12 @@ As propriedades de margem definem o tamanho do espaço em branco fora da borda.
 
 Margin / Margem - Espaçamento fora do conteúdo.
 Padding / Preenchimento - Espaçamento dentro dos limites do conteúdo.
+
+
+dl -> Lista de definição(glosario)
+<dl>
+    <dt></dt>
+    <dt></dt>
+    <dt></dt>
+    <dd></dd>
+</dl>
