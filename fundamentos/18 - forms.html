@@ -14,7 +14,35 @@
 
     <form action="#" method="GET" class="formLogin">
         <fieldset>
-            <legend>Login</legend>
+            <legend>Fild types</legend>
+
+            <label>E-mail</label>
+            <input type="text">
+            <br>
+            <label>Email</label>
+            <input type="email">
+            <br>
+            <label>Numeros de filhos</label>
+            <input type="number" min="0" max="1000">
+            <br>
+            <label>Nascimento</label>
+            <input type="date" min="2018-01-30" max="2138-01-30">
+            <!--Padrão americano -->
+            <br>
+            <p>Sexo</p>
+            <label>
+                <input type="radio" name="sexo" value="M">
+                Masculino
+            </label>
+            <label>Feminino</label>
+            <input type="radio" name="sexo" value="S">
+            <br>
+
+            <br>
+
+
+            <br>
+            <input type="submit" value="mandar">
         </fieldset>
     </form>
 </body>
