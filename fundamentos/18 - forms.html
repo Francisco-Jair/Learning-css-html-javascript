@@ -8,19 +8,20 @@
     <meta name="description" content="Lista de documentos">
     <meta name="keywords" content="devs, html">
 </head>
+<!-- input type:  file,tel,url  -->
 
 <body>
     <h1>Exemplo Formulario</h1>
 
-    <form action="#" method="GET" class="formLogin">
+    <form action="#" method="POST" class="formLogin">
         <fieldset>
             <legend>Fild types</legend>
 
             <label>E-mail</label>
-            <input type="text">
+            <input type="text" required>
             <br>
             <label>Email</label>
-            <input type="email">
+            <input type="email" maxlength="3">
             <br>
             <label>Numeros de filhos</label>
             <input type="number" min="0" max="1000">
@@ -37,13 +38,62 @@
             <label>Feminino</label>
             <input type="radio" name="sexo" value="S">
             <br>
+            <input type="hidden" name="espira" value="2018-12-30">
+            <!--Manda algo sem o usurio ver-->
 
-            <br>
+            <label>Estado</label>
+            <select>
+                <option value="0">Selecione</option>
+                <option value="SP">São Paulo</option>
+                <option value="PI">Piaui</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
 
-
+            <select multiple size="2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
             <br>
             <input type="submit" value="mandar">
         </fieldset>
+
+        <fieldset>
+
+            <legend>Area de interesse</legend>
+
+            <label>
+                <input type="checkbox" name="html" value="html"> HTML
+            </label>
+            <label>
+                <input type="checkbox" name="CSS" value="CSS"> CSS
+            </label>
+            <label>
+                <input type="checkbox" name="C" value="C"> C
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem</legend>
+
+            <textarea name="MSG" cols="30" rows="10"></textarea>
+
+            <textarea name="MSG" cols="30" rows="10" readonly>Aqui tem um contato</textarea>
+            <label><input type="checkbox" checked>Li e aceito</label>
+
+
+            <input type="range" min="0" max="10" step="2">
+            <input type="color">
+            <input type="time">
+        </fieldset>
+
+        <br>
+        <input type="submit" value="mandar">
+        <input type="button" value="button">
+        <!--Pode tratar usando javascript-->
+        <input type="reset" value="resetar">
     </form>
 </body>
 
