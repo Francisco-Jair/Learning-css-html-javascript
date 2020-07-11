@@ -76,3 +76,49 @@ body {
     font-size: 20px;
     line-height: 1.5;
 }
+
+.gallery {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.gallery h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card {
+    display: inline-block;
+    margin: 5px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #b4ddff;
+    /* width: 25%; */
+}
+
+.card img {
+    border-radius: 10px;
+    height: 200px;
+    width: 290px;
+    /* width: 100%; */
+}
+
+/* .box {} */
+
+.card p {
+    font-size: 15px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: royalblue;
+    height: 100px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 40px;
+}
