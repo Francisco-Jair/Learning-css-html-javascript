@@ -2,3 +2,79 @@
 Create by: F. Jair
 Date: 09/07/2020
 */
+
+body {
+    font-family: tahoma, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+.content {
+    width: 1024px;
+    margin: 20px auto;
+}
+
+.cabecalho {
+    position: absolute;
+}
+
+.nav-bar {
+    /* position: absolute; */
+}
+
+.lista-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.lista {
+    display: inline-block;
+    margin: 16px 16px;
+    list-style: none;
+    padding: 13px;
+}
+
+.lista:hover {
+    background-color: #128bee;
+}
+
+.lista a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color .9s linear;
+    transition: font-size 0.9s linear;
+    /* property name | duration | timing function(opcional) | delay */
+}
+
+.lista a:hover {
+    color: black;
+    font-size: 30px;
+}
+
+.image-top {
+    height: 500px;
+    width: 1000px;
+}
+
+.content-main {
+    margin-top: 200px;
+}
+
+.content-main h1 {
+    font-size: 40px;
+}
+
+.content-main img {
+    height: 200px;
+    float: left;
+}
+
+.content-main p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+}
