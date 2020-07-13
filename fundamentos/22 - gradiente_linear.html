@@ -15,10 +15,11 @@
         }
 
         body {
+            /* pode colocar propriedades que só serão usadas se o navegador não tiver suporte para o principal */
             /* O gradiente sempre vai funcionar como um backgraund-img */
             /* background-image: linear-gradient(to left bottom, red, transparent), linear-gradient(to left bottom, blue, transparent), url(img/bg.jpg); */
             /*pode colocar quantas cores quiser*/
-            /* posso escolher ate onde vai cada cor ex: red 100px */
+            /* posso escolher ate onde vai cada cor ex: red 100px ou red 60%*/
             background-image: linear-gradient(50deg, rgba(0, 0, 0, .8), transparent), url(img/bg.jpg);
             /*opc:direção ((pode ser em grau)to nomedadireção nomedadireção(pode ter duas para ficar na diagonal por exemplo)) ,cor inicial, final*/
             background-size: auto, cover;
