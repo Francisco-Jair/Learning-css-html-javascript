@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Border Radios</title>
+    <meta charset="utf-8">
+    <meta name="author" content="jair">
+    <meta name="description" content="Lista de documentos">
+    <meta name="keywords" content="devs, html">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            /* O gradiente sempre vai funcionar como um backgraund-img */
+            /* background-image: linear-gradient(to left bottom, red, transparent), linear-gradient(to left bottom, blue, transparent), url(img/bg.jpg); */
+            /*pode colocar quantas cores quiser*/
+            /* posso escolher ate onde vai cada cor ex: red 100px */
+            background-image: linear-gradient(50deg, rgba(0, 0, 0, .8), transparent), url(img/bg.jpg);
+            /*opc:direção ((pode ser em grau)to nomedadireção nomedadireção(pode ter duas para ficar na diagonal por exemplo)) ,cor inicial, final*/
+            background-size: auto, cover;
+            /*para a primeira propriedade do background-image e o cover para a segunda*/
+            /*gradiente primeiro img depois*/
+        }
+
+        #radios {
+            background-color: orange;
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+
+            border-radius: 50px 100px / 100px 50px;
+            /**Primeiros valores são na horizontal/
+            /*50% ou 100px para ter uma esfera perfeita*/
+
+            box-shadow: 100px 1px 10px 2px black, 10px 10px 0 red;
+            /*pode se ter mais de uma sombra*/
+            /*Deslocamento no eixo X, Y esfumaçamento (opcioal "tamanho da sombra") cor*/
+            /*E como fizesse uma copia desse figura com um distanciamento*/
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>CSS efeitos</h1>
+
+    <div id="radios">
+
+    </div>
+</body>
+
+</html>
