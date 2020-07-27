@@ -9,7 +9,27 @@
     <meta name="keywords" content="devs, html">
 
     <style>
-        
+        /* Transição precisa ter 2 pontos o inicial e o final */
+        /* A transição é uma mudança em um componente mas de forma suave*/
+        /*  */
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            /* transition-property: width; Qual a propriedade que estou animando */
+            transition-property: width, height; /*Todas as propriedades vai seguir essa ordem*/
+            /* transition-property: all; anima todos as propriedades */
+            transition-duration: 1s, 3s; /* Tempo*/
+            /* transition-timing-function: ease-in; */
+            transition-timing-function: cubic-bezier(.67, -0.38, .5, 1.5);
+            /* Cubic-bezier */
+            transition-delay: 0s ,.8s;/*Atrasar o começo da animação*/
+        }
+
+        div:hover{
+            width: 400px;
+            height: 400px;
+        }
     </style>
 </head>
 
